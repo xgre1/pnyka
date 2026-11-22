@@ -1,0 +1,9 @@
+solar features: 66661
+match rows: 533, with bldg_idx>=0: 516
+max |area(bldg_idx) - bldg_area_m2| over all matched rows: 0.000000 m2
+rows with diff > 0.01 m2: 0
+  idx 6615: csv 1518.936  polygon 1518.936
+  idx 18176: csv 1201.683  polygon 1201.683
+  idx 21737: csv 1344.260  polygon 1344.260
+  idx 370: csv 849.097  polygon 849.097
+  idx 41102: csv 744.185  polygon 744.185

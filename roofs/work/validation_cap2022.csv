@@ -1,0 +1,14 @@
+complex,school_points,matched_bldgs,matched_status,matched_max_ndvi,bldgs_within_30m,measurable_within_30m,green_within_30m,max_ndvi_within_30m
+"9o-71o Nip., 71o-84o Dim. / Gen. Kolokotroni (1st DK)",9ο Νηπιαγωγείο;71ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ;71ο Νηπιαγωγείο,8004,too_small,,14,0,0,
+"8o-67o Nip., 2o-5o Dim. / Damareos 65 (2nd DK)",67ο Νηπιαγωγείο;2ο Δημοτικό;8ο Νηπιαγωγείο,40289,too_small,,18,0,0,
+"90o Dim., 123o Dim. / Amfikratous 6 & Vathykleous (2nd DK)",90ο Δημοτικό;123ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ;68ο Νηπιαγωγείο;88ο Νηπιαγωγείο,198;64666,green;too_small,0.327,19,1,1,0.327
+137o Dim. / Alkifronos 51-53 (3rd DK),137ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ,9989,too_small,,8,0,0,
+87o Dim. / Orfeos & Achniadon 3-5 (3rd DK),87ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ;53ο Νηπιαγωγείο,31377,too_small,,21,0,0,
+"30o Nip., 60o Dim. / Aimonos & Tilefanous (4th DK)",60ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ;130ο Νηπιαγωγείο,61452,green,0.774,10,1,1,0.774
+127o Dim. / Kallipoleos 10 (4th DK),127ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ,6343,too_small,,10,0,0,
+173o Dim. / Ariovarzanou & Efthykratous (5th DK),173 Δημοτικό,,unmatched,,0,0,0,
+49o Lykeio / Acharnon 411-415 (5th DK),49ο ΓΕΛ;49ο Γυμνάσιο,57837;57841,too_small,,11,0,0,
+172o Dim. / Skopelou 67-71 (6th DK),172ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ,43193,too_small,,8,0,0,
+"66o-80o Nip., 53o-99o Dim. / Ygeias 11a (6th DK)",99ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ;66ο Νηπιαγωγείο;80ο Νηπιαγωγείο,6248;29326,too_small,,20,0,0,
+134o Dim. / L. K. Tsaldari 11 (7th DK),134ο ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΘΗΝΩΝ,42952,too_small,,5,0,0,
+2o Peiramatiko Gymnasio / P. Kyriakou & Tsocha (7th DK),2ο ΠΕΙΡΑΜΑΤΙΚΟ ΓΥΜΝΑΣΙΟ ΑΘΗΝΩΝ;2ο ΓΕΛ ΕΣΠ;2ο Γυμνάσιο ΕΣΠ,19055;19110,green;ordinary,0.384,10,4,1,0.384

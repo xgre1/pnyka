@@ -1,0 +1,116 @@
+{
+ "solar_features": 66661,
+ "green_s2_buildings": 5,
+ "green_cap2022_matched_buildings": 16,
+ "facility_points_matched": 516,
+ "facility_buildings": 368,
+ "osm_cache_files": {
+  "greenroofs_city_operator": 1052,
+  "greenroofs_city_amenities": "MISSING (Overpass failed)",
+  "greenroofs_city_names": "MISSING (Overpass failed)"
+ },
+ "osm_elements_fetched": 1052,
+ "osm_city_elements_kind_ok": 52,
+ "osm_hits_merged_into_existing": 19,
+ "solar_name_added": 6,
+ "skipped_usable_lt_min": 14,
+ "skipped_outside_neighbourhoods": 2,
+ "features": 389,
+ "app_features": 387,
+ "unclear_osm_candidates": 12,
+ "by_category_control": {
+  "admin|city_register": [
+   8,
+   1557
+  ],
+  "clinic|city_register": [
+   7,
+   2498
+  ],
+  "culture|osm_operator": [
+   19,
+   5183
+  ],
+  "friendship_club|city_register": [
+   22,
+   4748
+  ],
+  "library|osm_operator": [
+   2,
+   1105
+  ],
+  "market|osm_operator": [
+   1,
+   636
+  ],
+  "municipal_service|city_register": [
+   13,
+   8458
+  ],
+  "municipal_service|osm_operator": [
+   1,
+   74
+  ],
+  "nursery|city_register": [
+   62,
+   15478
+  ],
+  "nursery|osm_operator": [
+   2,
+   1052
+  ],
+  "other_city|osm_operator": [
+   4,
+   1479
+  ],
+  "school|city_register": [
+   244,
+   106054
+  ],
+  "school|unclear": [
+   2,
+   7240
+  ],
+  "sports|osm_operator": [
+   2,
+   1115
+  ]
+ },
+ "usable_m2_total_app": 149437,
+ "roof_m2_total_app": 249062,
+ "neighbourhoods_with_candidate": 115,
+ "already_green_features": 18,
+ "school_owner_note_features": 245,
+ "osm_only_n": 31,
+ "osm_only_names": [
+  "(χωρίς όνομα)",
+  "Αεριοφυλάκιο 2 - InnovAthens",
+  "Αεριοφυλάκιο 3",
+  "Αποθήκη",
+  "Βρεφικός και Νηπιακός Παιδικός Σταθμός (2 Δ.Κ. ΠΑΓΚΡΑΤΙΟΥ)",
+  "Γραφεία Διοίκησης",
+  "Γυμναστήριο - Πολιτιστικό Κέντρο Δήμου Αθηναίων",
+  "Δεξαμενές Καθαρισμού",
+  "Δημοτική Αγορά Κυψέλης",
+  "Δημοτική Βιβλιοθήκη Δήμου Αθηναίων",
+  "Δημοτικό Κολυμβητήριο Κολοκυνθούς",
+  "Δημοτικός Παιδικός Σταθμός Κριναγόρου Γ; Δημοτικός Παιδικός Σταθμός Κριναγόρου Β; Δημοτικός Παιδικός Σταθμός Κριναγόρου Α",
+  "Κέντρο Σίτισης Δήμου Αθηναίων",
+  "Κέντρο Τεχνών",
+  "Κέντρο Ψυχολογικής Υποστήριξης",
+  "Κτίριο Πίεσης και Διανομής",
+  "Λουτρά",
+  "Μηχανουργείο",
+  "Νέα Πινακοθήκη Δήμου Αθηναίων",
+  "Νέο Υδαταέριο",
+  "Νέοι Φούρνοι",
+  "Οικία Θεοτοκοπούλου",
+  "Παιδική Εφηβική Βιβλιοθήκη; Βρεφική Νηπιακή Βιβλιοθήκη",
+  "Παλαιοί Φούρνοι; Τεχνόπολις Δήμου Αθηναίων",
+  "Παλαιό Υδαταέριο",
+  "Πνευματικό Κέντρο Δήμου Αθηναίων",
+  "Πολιτιστικό Κέντρο \"Μελίνα\"",
+  "Σιδηρουργείο",
+  "Στέλλα"
+ ]
+}

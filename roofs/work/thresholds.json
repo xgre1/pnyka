@@ -1,0 +1,23 @@
+{
+ "min_pixels": 4,
+ "shrink_m": 5.0,
+ "ndvi_green": 0.3,
+ "bright_top_pct": 10,
+ "albedo_cut": 0.3250088393688202,
+ "albedo_cuts": {
+  "top5": 0.36860981583595276,
+  "top10": 0.3250088393688202,
+  "top20": 0.26527684926986694
+ },
+ "albedo_cuts_nomask": {
+  "top5": 0.3689158856868744,
+  "top10": 0.3226497769355774,
+  "top20": 0.26527684926986694
+ },
+ "n_reference_roofs": 761,
+ "n_reference_roofs_nomask": 761,
+ "n_solar_roofs": 66661,
+ "n_solar_roofs_in_municipality": 65108,
+ "reference_albedo_median": 0.183452770113945,
+ "reference_ndvi_share_ge030": 0.02890932982917214
+}

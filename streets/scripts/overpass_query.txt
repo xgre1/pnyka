@@ -1,0 +1,5 @@
+[out:json][timeout:180];
+(way["highway"~"^(primary|secondary|tertiary|residential|living_street|pedestrian|unclassified|trunk)$"]["name"](37.94,23.68,38.04,23.80););
+out geom;
+// second request, save as trees.json:
+// [out:json][timeout:180];(node["natural"="tree"](37.94,23.68,38.04,23.80);way["natural"="tree_row"](37.94,23.68,38.04,23.80););out geom;

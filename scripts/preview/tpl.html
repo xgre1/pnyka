@@ -1,0 +1,76 @@
+<!doctype html><html lang="el"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Προεπισκόπηση δεδομένων – γειτονιές Αθήνας</title>
+<style>
+:root{--surface:#fcfcfb;--panel:#f3f2ee;--text:#0b0b0b;--text2:#52514e;--line:#dddbd3;--nodata:#e4e2da;--hatch:#b9b7ad}
+*{box-sizing:border-box}body{margin:0;background:var(--surface);color:var(--text);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:1240px;margin:0 auto;padding:20px}
+h1{font-size:20px;margin:0 0 4px}p.sub{margin:0 0 14px;color:var(--text2)}
+.bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.bar button{font:inherit;padding:6px 11px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:6px;cursor:pointer}
+.bar button[aria-pressed=true]{background:var(--text);color:var(--surface);border-color:var(--text)}
+.grid{display:grid;grid-template-columns:minmax(0,780px) minmax(0,1fr);gap:20px;align-items:start}
+@media(max-width:1000px){.grid{grid-template-columns:1fr}}
+svg{width:100%;height:auto;display:block}
+path.nb{stroke:var(--surface);stroke-width:1;cursor:pointer}path.nb:hover,path.nb.sel{stroke:var(--text);stroke-width:2}
+.note{background:var(--panel);border-radius:8px;padding:10px 12px;margin:0 0 12px;color:var(--text2)}
+.note b{color:var(--text)}
+.legend{display:flex;align-items:center;gap:0;margin:10px 0 4px;flex-wrap:wrap}
+.legend span.sw{width:46px;height:12px;display:inline-block}
+.legend.lab{font-size:12px;color:var(--text2);margin-top:2px;flex-wrap:nowrap}.legend.lab span{width:46px;flex:none;text-align:left}.legend.lab span:last-child{width:auto;margin-left:-14px;padding-left:4px}
+.nd{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);margin-top:6px}
+#tip{position:fixed;pointer-events:none;background:var(--text);color:var(--surface);padding:7px 9px;border-radius:6px;font-size:12.5px;max-width:300px;display:none;z-index:5}
+table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{padding:4px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}th{cursor:pointer;color:var(--text2);font-weight:600;position:sticky;top:0;background:var(--surface)}
+tr.sel td{background:var(--panel)}.tw{max-height:640px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.card{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:12px;min-height:118px}
+.card h2{font-size:15px;margin:0 0 6px}.kv{display:grid;grid-template-columns:1fr auto;gap:2px 12px;font-size:13px}.kv span:nth-child(odd){color:var(--text2)}
+</style></head><body><main>
+<h1>Προεπισκόπηση δεδομένων: 144 γειτονιές του Δήμου Αθηναίων</h1>
+<p class="sub">Σελίδα ελέγχου των δεδομένων, όχι η εφαρμογή. Πηγές: Copernicus Urban Atlas Street Tree Layer 2018 · Δήμος Αθηναίων, env-all-stations (καλοκαίρι 2026) και επίπεδα GIS.</p>
+<div class="bar" id="bar"></div>
+<div class="note" id="note"></div>
+<div class="grid"><div>
+<svg id="map" viewBox="0 0 __W__ __H__" role="img" aria-label="Χάρτης γειτονιών"><defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--nodata)"/><line x1="0" y1="0" x2="0" y2="6" stroke="var(--hatch)" stroke-width="1.5"/></pattern></defs><g id="g"></g></svg>
+<div class="legend" id="leg"></div><div class="legend lab" id="leglab"></div>
+<div class="nd"><svg width="46" height="12" style="width:46px"><rect width="46" height="12" fill="url(#hatch)"/></svg><span id="ndlab">χωρίς μέτρηση</span></div>
+</div><div>
+<div class="card" id="card"><h2>Πέρνα πάνω από μια γειτονιά</h2><div class="kv"></div></div>
+<div class="tw"><table id="tb"><thead></thead><tbody></tbody></table></div>
+</div></div></main><div id="tip"></div>
+<script>
+const R=__DATA__;
+const RAMP=['#cde2fb','#9ec5f4','#6da7ec','#3987e5','#256abf','#184f95','#0d366b'];
+const M={
+ tree:{label:'Κάλυψη από δέντρα (%)',unit:'%',dp:1,note:'<b>Κάλυψη από δέντρα.</b> Copernicus Street Tree Layer 2018, υπάρχει για όλες τις 144 γειτονιές. Πιο σκούρο σημαίνει περισσότερα δέντρα. Πέντε ανεξάρτητες πηγές κατατάσσουν τις γειτονιές σχεδόν ίδια.'},
+ night:{label:'Νυχτερινή θερμοκρασία (°C)',unit:'°C',dp:1,note:'<b>Μέση θερμοκρασία 00:00–05:00, καλοκαίρι 2026.</b> Από τους αισθητήρες του Δήμου, 77 γειτονιές. Οι περισσότερες στηρίζονται σε έναν αισθητήρα.'},
+ vul:{label:'Ευάλωτα σημεία (πλήθος)',unit:'',dp:0,note:'<b>Σχολεία + βρεφονηπιακοί + παιδικές χαρές + Λέσχες Φιλίας</b> μέσα στα όρια κάθε γειτονιάς. Πλήθος, όχι πυκνότητα: οι μεγάλες γειτονιές βγαίνουν ψηλά.'},
+ daymax:{label:'Μέγιστη ημέρας (°C) – προσοχή',unit:'°C',dp:1,note:'<b>Μην τη χρησιμοποιήσετε για κατάταξη.</b> Η μέγιστη θερμοκρασία ημέρας εξαρτάται από το πού είναι στημένος ο αισθητήρας. Η πιο «ζεστή» γειτονιά (Σχολή Ευελπίδων) έχει 45% κάλυψη από δέντρα.'},
+ lst:{label:'Θερμοκρασία επιφάνειας 2016–2020 (°C)',unit:'°C',dp:1,note:'<b>Δορυφορική θερμοκρασία επιφάνειας, ημέρα καλοκαιριού.</b> Από χάρτη του Δήμου, όλες οι 144 γειτονιές. Είναι θερμοκρασία εδάφους και στεγών, όχι αέρα.'}
+};
+let cur='tree',sortK='tree',sortAsc=true,sel=null;
+const fmt=(v,m)=>v==null?'–':v.toLocaleString('el-GR',{minimumFractionDigits:m.dp,maximumFractionDigits:m.dp})+(m.unit?' '+m.unit:'');
+function bins(k){const v=R.map(r=>r[k]).filter(x=>x!=null).sort((a,b)=>a-b);const t=[];for(let i=1;i<7;i++)t.push(v[Math.floor(v.length*i/7)]);return{t,min:v[0],max:v[v.length-1],n:v.length}}
+function col(v,b){if(v==null)return'url(#hatch)';let i=0;while(i<6&&v>=b.t[i])i++;return RAMP[i]}
+const G=document.getElementById('g'),tip=document.getElementById('tip');
+R.forEach((r,i)=>{const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',r.d);p.setAttribute('class','nb');p.dataset.i=i;G.appendChild(p)});
+function card(r){const c=document.getElementById('card');c.querySelector('h2').textContent=r.n;
+ const rows=[['Κάλυψη από δέντρα',fmt(r.tree,M.tree)],['Νυχτερινή θερμοκρασία',fmt(r.night,M.night)],['Μέγιστη ημέρας',fmt(r.daymax,M.daymax)],['Σχολεία',r.schools],['Βρεφονηπιακοί',r.nurs],['Παιδικές χαρές',r.play],['Λέσχες Φιλίας',r.clubs],['Αισθητήρες',r.sensors||'κανένας']];
+ c.querySelector('.kv').innerHTML=rows.map(([a,b])=>`<span>${a}</span><span>${b}</span>`).join('')}
+function pick(i){sel=i;document.querySelectorAll('path.nb').forEach(p=>p.classList.toggle('sel',+p.dataset.i===i));document.querySelectorAll('#tb tbody tr').forEach(t=>t.classList.toggle('sel',+t.dataset.i===i));card(R[i])}
+G.addEventListener('mousemove',e=>{const p=e.target.closest('path');if(!p)return;const r=R[+p.dataset.i];tip.style.display='block';tip.innerHTML=`<b>${r.n}</b><br>${M[cur].label}: ${fmt(r[cur],M[cur])}`;tip.style.left=Math.min(e.clientX+14,innerWidth-310)+'px';tip.style.top=(e.clientY+14)+'px';card(r)});
+G.addEventListener('mouseleave',()=>{tip.style.display='none';if(sel!=null)card(R[sel])});
+G.addEventListener('click',e=>{const p=e.target.closest('path');if(p){pick(+p.dataset.i);const t=document.querySelector(`#tb tbody tr[data-i="${p.dataset.i}"]`);t&&t.scrollIntoView({block:'nearest'})}});
+function table(){const cols=[['n','Γειτονιά'],['tree','Δέντρα %'],['night','Νύχτα °C'],['vul','Ευάλωτα'],['sensors','Αισθ.']];
+ document.querySelector('#tb thead').innerHTML='<tr>'+cols.map(([k,l])=>`<th data-k="${k}">${l}${sortK===k?(sortAsc?' ▲':' ▼'):''}</th>`).join('')+'</tr>';
+ const idx=R.map((r,i)=>i).sort((a,b)=>{const x=R[a][sortK],y=R[b][sortK];if(x==null)return 1;if(y==null)return -1;return (typeof x==='string'?x.localeCompare(y,'el'):x-y)*(sortAsc?1:-1)});
+ document.querySelector('#tb tbody').innerHTML=idx.map(i=>{const r=R[i];return`<tr data-i="${i}" class="${sel===i?'sel':''}"><td>${r.n}</td><td>${fmt(r.tree,{dp:1})}</td><td>${fmt(r.night,{dp:1})}</td><td>${r.vul}</td><td>${r.sensors}</td></tr>`}).join('')}
+document.querySelector('#tb').addEventListener('click',e=>{const th=e.target.closest('th');if(th){const k=th.dataset.k;if(sortK===k)sortAsc=!sortAsc;else{sortK=k;sortAsc=k==='tree'||k==='n'}table();return}const tr=e.target.closest('tbody tr');if(tr)pick(+tr.dataset.i)});
+function draw(){const m=M[cur],b=bins(cur);document.querySelectorAll('path.nb').forEach(p=>p.setAttribute('fill',col(R[+p.dataset.i][cur],b)));
+ document.getElementById('note').innerHTML=m.note+` <span>Γειτονιές με τιμή: ${b.n} από 144.</span>`;
+ document.getElementById('leg').innerHTML=RAMP.map(c=>`<span class="sw" style="background:${c}"></span>`).join('');
+ const e=[b.min,...b.t];document.getElementById('leglab').innerHTML=e.map(v=>`<span>${v.toLocaleString('el-GR',{maximumFractionDigits:m.dp})}</span>`).join('')+`<span>έως ${b.max.toLocaleString('el-GR',{maximumFractionDigits:m.dp})} ${m.unit}</span>`;
+ document.getElementById('ndlab').textContent=b.n<144?`χωρίς μέτρηση (${144-b.n} γειτονιές)`:'χωρίς μέτρηση (καμία)';
+ document.getElementById('bar').innerHTML=Object.entries(M).map(([k,v])=>`<button data-k="${k}" aria-pressed="${k===cur}">${v.label}</button>`).join('')}
+document.getElementById('bar').addEventListener('click',e=>{const b=e.target.closest('button');if(b){cur=b.dataset.k;draw()}});
+draw();table();
+</script></body></html>

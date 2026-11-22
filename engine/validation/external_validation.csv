@@ -1,0 +1,366 @@
+intervention,ranking,kind,metric,top_value,bottom_value,all_packages_value,random_pick_mean,random_p5,random_p95,p_one_sided
+trees_pavement,current_composite,current,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4462,39.7529,39.6866,39.6867,39.4289,39.9603,0.9361
+trees_pavement,current_composite,current,"wc2021_tree_pct (mean, top 20; independent canopy product)",2.3334,8.9908,5.1377,5.1468,3.5006,7.1588,0.0007
+trees_pavement,current_composite,current,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.6599,5.2699,3.8756,3.8748,3.1249,4.6360,0.0032
+trees_pavement,current_composite,current,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.4253,4.3989,2.8977,2.9015,1.9635,3.9106,0.0024
+trees_pavement,current_composite,current,"share of municipal residents, top 20",0.2207,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,current_composite,current,"share of municipal residents 65+, top 20",0.2158,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,current_composite,current,"share of the municipality low-canopy schools, top 20",0.2610,,,0.1605,0.0964,0.2289,0.0098
+trees_pavement,current_composite,current,"share of municipal residents, top 30",0.3231,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,current_composite,current,"share of municipal residents 65+, top 30",0.3151,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,current_composite,current,"share of the municipality low-canopy schools, top 30",0.4016,,,0.2402,0.1647,0.3173,0.0005
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4439,39.8464,39.6866,39.6867,39.4289,39.9603,0.9377
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.9556,8.7449,5.1377,5.1468,3.5006,7.1588,0.0002
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.5730,5.2343,3.8756,3.8748,3.1249,4.6360,0.0013
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.0723,4.2511,2.8977,2.9015,1.9635,3.9106,0.0002
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"share of municipal residents, top 20",0.2172,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"share of municipal residents 65+, top 20",0.2106,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"share of the municipality low-canopy schools, top 20",0.2731,,,0.1605,0.0964,0.2289,0.0050
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"share of municipal residents, top 30",0.3244,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"share of municipal residents 65+, top 30",0.3165,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"share of the municipality low-canopy schools, top 30",0.3815,,,0.2402,0.1647,0.3173,0.0022
+trees_pavement,current_composite_without_night_temp,out_of_sample_variant,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3965,26.9606,27.0959,27.0993,,,0.0170
+trees_pavement,naive_tree_cover_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5471,39.7059,39.6866,39.6867,39.4289,39.9603,0.8069
+trees_pavement,naive_tree_cover_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",0.8327,13.8512,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,naive_tree_cover_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",1.5514,7.2543,3.8756,3.8748,3.1249,4.6360,0.0001
+trees_pavement,naive_tree_cover_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.1252,8.1291,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,naive_tree_cover_alone,naive,"share of municipal residents, top 20",0.1363,,,0.1448,0.1242,0.1659,0.7429
+trees_pavement,naive_tree_cover_alone,naive,"share of municipal residents 65+, top 20",0.1364,,,0.1435,0.1235,0.1641,0.7073
+trees_pavement,naive_tree_cover_alone,naive,"share of the municipality low-canopy schools, top 20",0.1928,,,0.1605,0.0964,0.2289,0.2223
+trees_pavement,naive_tree_cover_alone,naive,"share of municipal residents, top 30",0.2118,,,0.2173,0.1932,0.2417,0.6438
+trees_pavement,naive_tree_cover_alone,naive,"share of municipal residents 65+, top 30",0.2085,,,0.2153,0.1918,0.2392,0.6859
+trees_pavement,naive_tree_cover_alone,naive,"share of the municipality low-canopy schools, top 30",0.2691,,,0.2402,0.1647,0.3173,0.2829
+trees_pavement,naive_tree_cover_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.4866,26.7572,27.0959,27.0993,,,0.0026
+trees_pavement,naive_density_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.3483,40.4211,39.6866,39.6867,39.4289,39.9603,0.9866
+trees_pavement,naive_density_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.9972,6.6969,5.1377,5.1468,3.5006,7.1588,0.0002
+trees_pavement,naive_density_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.7335,4.6691,3.8756,3.8748,3.1249,4.6360,0.0055
+trees_pavement,naive_density_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.4438,3.7513,2.8977,2.9015,1.9635,3.9106,0.0026
+trees_pavement,naive_density_alone,naive,"share of municipal residents, top 20",0.1927,,,0.1448,0.1242,0.1659,0.0002
+trees_pavement,naive_density_alone,naive,"share of municipal residents 65+, top 20",0.1882,,,0.1435,0.1235,0.1641,0.0002
+trees_pavement,naive_density_alone,naive,"share of the municipality low-canopy schools, top 20",0.2129,,,0.1605,0.0964,0.2289,0.1086
+trees_pavement,naive_density_alone,naive,"share of municipal residents, top 30",0.2743,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,naive_density_alone,naive,"share of municipal residents 65+, top 30",0.2724,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,naive_density_alone,naive,"share of the municipality low-canopy schools, top 30",0.2932,,,0.2402,0.1647,0.3173,0.1390
+trees_pavement,naive_density_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.4015,26.9152,27.0959,27.0993,,,0.0158
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.7413,39.6265,39.6866,39.6867,39.4289,39.9603,0.3578
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",4.0525,6.7143,5.1377,5.1468,3.5006,7.1588,0.1572
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",3.2412,4.8783,3.8756,3.8748,3.1249,4.6360,0.0854
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",2.1539,3.4869,2.8977,2.9015,1.9635,3.9106,0.0994
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"share of municipal residents, top 20",0.1788,,,0.1448,0.1242,0.1659,0.0029
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"share of municipal residents 65+, top 20",0.1733,,,0.1435,0.1235,0.1641,0.0071
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"share of the municipality low-canopy schools, top 20",0.4980,,,0.1605,0.0964,0.2289,0.0001
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"share of municipal residents, top 30",0.2705,,,0.2173,0.1932,0.2417,0.0002
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"share of municipal residents 65+, top 30",0.2651,,,0.2153,0.1918,0.2392,0.0002
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"share of the municipality low-canopy schools, top 30",0.6466,,,0.2402,0.1647,0.3173,0.0001
+trees_pavement,naive_low_canopy_sites_count_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3329,26.9004,27.0959,27.0993,,,0.0482
+trees_pavement,naive_lst_alone,naive_heat,"city_lst_summer_day_2016_2020_c (mean, top 20)",40.9819,38.7590,39.6866,39.6867,39.4289,39.9603,0.0001
+trees_pavement,naive_lst_alone,naive_heat,"wc2021_tree_pct (mean, top 20; independent canopy product)",5.9733,3.5657,5.1377,5.1468,3.5006,7.1588,0.7826
+trees_pavement,naive_lst_alone,naive_heat,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",4.3232,3.0963,3.8756,3.8748,3.1249,4.6360,0.8372
+trees_pavement,naive_lst_alone,naive_heat,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",3.2320,1.8921,2.8977,2.9015,1.9635,3.9106,0.7214
+trees_pavement,naive_lst_alone,naive_heat,"share of municipal residents, top 20",0.1237,,,0.1448,0.1242,0.1659,0.9537
+trees_pavement,naive_lst_alone,naive_heat,"share of municipal residents 65+, top 20",0.1159,,,0.1435,0.1235,0.1641,0.9888
+trees_pavement,naive_lst_alone,naive_heat,"share of the municipality low-canopy schools, top 20",0.1727,,,0.1605,0.0964,0.2289,0.3875
+trees_pavement,naive_lst_alone,naive_heat,"share of municipal residents, top 30",0.1932,,,0.2173,0.1932,0.2417,0.9500
+trees_pavement,naive_lst_alone,naive_heat,"share of municipal residents 65+, top 30",0.1860,,,0.2153,0.1918,0.2392,0.9817
+trees_pavement,naive_lst_alone,naive_heat,"share of the municipality low-canopy schools, top 30",0.2570,,,0.2402,0.1647,0.3173,0.3734
+trees_pavement,naive_lst_alone,naive_heat,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.2819,26.9739,27.0959,27.0993,,,0.0960
+trees_pavement,naive_residents_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5357,39.9192,39.6866,39.6867,39.4289,39.9603,0.8263
+trees_pavement,naive_residents_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",5.1745,5.9255,5.1377,5.1468,3.5006,7.1588,0.5475
+trees_pavement,naive_residents_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",4.2534,3.8121,3.8756,3.8748,3.1249,4.6360,0.7955
+trees_pavement,naive_residents_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",3.3204,2.4778,2.8977,2.9015,1.9635,3.9106,0.7659
+trees_pavement,naive_residents_alone,naive,"share of municipal residents, top 20",0.2399,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,naive_residents_alone,naive,"share of municipal residents 65+, top 20",0.2352,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,naive_residents_alone,naive,"share of the municipality low-canopy schools, top 20",0.2570,,,0.1605,0.0964,0.2289,0.0120
+trees_pavement,naive_residents_alone,naive,"share of municipal residents, top 30",0.3363,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,naive_residents_alone,naive,"share of municipal residents 65+, top 30",0.3294,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,naive_residents_alone,naive,"share of the municipality low-canopy schools, top 30",0.3574,,,0.2402,0.1647,0.3173,0.0079
+trees_pavement,naive_residents_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.2457,27.0507,27.0959,27.0993,,,0.1492
+trees_pavement,T1_drop_night_temp,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4439,39.8464,39.6866,39.6867,39.4289,39.9603,0.9377
+trees_pavement,T1_drop_night_temp,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.9556,8.7449,5.1377,5.1468,3.5006,7.1588,0.0002
+trees_pavement,T1_drop_night_temp,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.5730,5.2343,3.8756,3.8748,3.1249,4.6360,0.0013
+trees_pavement,T1_drop_night_temp,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.0723,4.2511,2.8977,2.9015,1.9635,3.9106,0.0002
+trees_pavement,T1_drop_night_temp,proposed,"share of municipal residents, top 20",0.2172,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T1_drop_night_temp,proposed,"share of municipal residents 65+, top 20",0.2106,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T1_drop_night_temp,proposed,"share of the municipality low-canopy schools, top 20",0.2731,,,0.1605,0.0964,0.2289,0.0050
+trees_pavement,T1_drop_night_temp,proposed,"share of municipal residents, top 30",0.3244,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T1_drop_night_temp,proposed,"share of municipal residents 65+, top 30",0.3165,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T1_drop_night_temp,proposed,"share of the municipality low-canopy schools, top 30",0.3815,,,0.2402,0.1647,0.3173,0.0022
+trees_pavement,T1_drop_night_temp,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3965,26.9606,27.0959,27.0993,,,0.0170
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5359,39.9735,39.6866,39.6867,39.4289,39.9603,0.8258
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",2.3338,9.0268,5.1377,5.1468,3.5006,7.1588,0.0007
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",3.0123,4.8558,3.8756,3.8748,3.1249,4.6360,0.0278
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.4058,4.2245,2.8977,2.9015,1.9635,3.9106,0.0024
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"share of municipal residents, top 20",0.2250,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"share of municipal residents 65+, top 20",0.2172,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"share of the municipality low-canopy schools, top 20",0.2570,,,0.1605,0.0964,0.2289,0.0120
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"share of municipal residents, top 30",0.3177,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"share of municipal residents 65+, top 30",0.3100,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T2_drop_canopy_deficit_m2,proposed,"share of the municipality low-canopy schools, top 30",0.3655,,,0.2402,0.1647,0.3173,0.0052
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4650,39.9748,39.6866,39.6867,39.4289,39.9603,0.9173
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.7591,9.0271,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.3457,5.2708,3.8756,3.8748,3.1249,4.6360,0.0003
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.9907,4.3040,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"share of municipal residents, top 20",0.2150,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"share of municipal residents 65+, top 20",0.2101,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"share of the municipality low-canopy schools, top 20",0.2731,,,0.1605,0.0964,0.2289,0.0050
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"share of municipal residents, top 30",0.3174,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"share of municipal residents 65+, top 30",0.3096,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T2b_deficit_per_area_instead_of_m2,proposed,"share of the municipality low-canopy schools, top 30",0.3614,,,0.2402,0.1647,0.3173,0.0064
+trees_pavement,T3_drop_density,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4402,39.7058,39.6866,39.6867,39.4289,39.9603,0.9415
+trees_pavement,T3_drop_density,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.9825,9.3730,5.1377,5.1468,3.5006,7.1588,0.0002
+trees_pavement,T3_drop_density,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.5482,5.5717,3.8756,3.8748,3.1249,4.6360,0.0011
+trees_pavement,T3_drop_density,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.0340,4.6538,2.8977,2.9015,1.9635,3.9106,0.0002
+trees_pavement,T3_drop_density,proposed,"share of municipal residents, top 20",0.2175,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T3_drop_density,proposed,"share of municipal residents 65+, top 20",0.2117,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T3_drop_density,proposed,"share of the municipality low-canopy schools, top 20",0.3373,,,0.1605,0.0964,0.2289,0.0002
+trees_pavement,T3_drop_density,proposed,"share of municipal residents, top 30",0.3177,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T3_drop_density,proposed,"share of municipal residents 65+, top 30",0.3083,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T3_drop_density,proposed,"share of the municipality low-canopy schools, top 30",0.3855,,,0.2402,0.1647,0.3173,0.0016
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4118,39.7529,39.6866,39.6867,39.4289,39.9603,0.9611
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",2.4184,8.9908,5.1377,5.1468,3.5006,7.1588,0.0010
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.7064,5.2699,3.8756,3.8748,3.1249,4.6360,0.0046
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.4265,4.3989,2.8977,2.9015,1.9635,3.9106,0.0024
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"share of municipal residents, top 20",0.2210,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"share of municipal residents 65+, top 20",0.2166,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"share of the municipality low-canopy schools, top 20",0.2771,,,0.1605,0.0964,0.2289,0.0037
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"share of municipal residents, top 30",0.3231,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"share of municipal residents 65+, top 30",0.3151,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T3b_new_trees_per_km2_instead_of_per_1000,proposed,"share of the municipality low-canopy schools, top 30",0.4016,,,0.2402,0.1647,0.3173,0.0005
+trees_pavement,T4_lst_instead_of_night,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5637,39.6389,39.6866,39.6867,39.4289,39.9603,0.7765
+trees_pavement,T4_lst_instead_of_night,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",2.5978,8.9721,5.1377,5.1468,3.5006,7.1588,0.0019
+trees_pavement,T4_lst_instead_of_night,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",3.1111,5.2149,3.8756,3.8748,3.1249,4.6360,0.0461
+trees_pavement,T4_lst_instead_of_night,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.4568,4.4489,2.8977,2.9015,1.9635,3.9106,0.0029
+trees_pavement,T4_lst_instead_of_night,proposed,"share of municipal residents, top 20",0.2279,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T4_lst_instead_of_night,proposed,"share of municipal residents 65+, top 20",0.2201,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T4_lst_instead_of_night,proposed,"share of the municipality low-canopy schools, top 20",0.2932,,,0.1605,0.0964,0.2289,0.0014
+trees_pavement,T4_lst_instead_of_night,proposed,"share of municipal residents, top 30",0.3276,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T4_lst_instead_of_night,proposed,"share of municipal residents 65+, top 30",0.3165,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T4_lst_instead_of_night,proposed,"share of the municipality low-canopy schools, top 30",0.4217,,,0.2402,0.1647,0.3173,0.0001
+trees_pavement,T4_lst_instead_of_night,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3080,26.9098,27.0959,27.0993,,,0.0678
+trees_pavement,T6_balanced_need_vs_people,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4650,39.7592,39.6866,39.6867,39.4289,39.9603,0.9173
+trees_pavement,T6_balanced_need_vs_people,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.7591,9.3890,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T6_balanced_need_vs_people,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.3457,5.4459,3.8756,3.8748,3.1249,4.6360,0.0003
+trees_pavement,T6_balanced_need_vs_people,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.9906,4.7766,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,T6_balanced_need_vs_people,proposed,"share of municipal residents, top 20",0.2150,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T6_balanced_need_vs_people,proposed,"share of municipal residents 65+, top 20",0.2101,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T6_balanced_need_vs_people,proposed,"share of the municipality low-canopy schools, top 20",0.2731,,,0.1605,0.0964,0.2289,0.0050
+trees_pavement,T6_balanced_need_vs_people,proposed,"share of municipal residents, top 30",0.3018,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T6_balanced_need_vs_people,proposed,"share of municipal residents 65+, top 30",0.2944,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T6_balanced_need_vs_people,proposed,"share of the municipality low-canopy schools, top 30",0.3775,,,0.2402,0.1647,0.3173,0.0028
+trees_pavement,T12_drop_night_and_deficit,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4528,40.0429,39.6866,39.6867,39.4289,39.9603,0.9306
+trees_pavement,T12_drop_night_and_deficit,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.9112,8.4781,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T12_drop_night_and_deficit,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.7067,4.5065,3.8756,3.8748,3.1249,4.6360,0.0046
+trees_pavement,T12_drop_night_and_deficit,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.1440,4.1007,2.8977,2.9015,1.9635,3.9106,0.0002
+trees_pavement,T12_drop_night_and_deficit,proposed,"share of municipal residents, top 20",0.2169,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T12_drop_night_and_deficit,proposed,"share of municipal residents 65+, top 20",0.2096,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T12_drop_night_and_deficit,proposed,"share of the municipality low-canopy schools, top 20",0.2731,,,0.1605,0.0964,0.2289,0.0050
+trees_pavement,T12_drop_night_and_deficit,proposed,"share of municipal residents, top 30",0.3177,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T12_drop_night_and_deficit,proposed,"share of municipal residents 65+, top 30",0.3100,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T12_drop_night_and_deficit,proposed,"share of the municipality low-canopy schools, top 30",0.3655,,,0.2402,0.1647,0.3173,0.0052
+trees_pavement,T12_drop_night_and_deficit,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3971,26.9777,27.0959,27.0993,,,0.0168
+trees_pavement,T123_drop_night_deficit_density,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4716,39.8346,39.6866,39.6867,39.4289,39.9603,0.9106
+trees_pavement,T123_drop_night_deficit_density,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.5718,9.4458,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T123_drop_night_deficit_density,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.4748,5.1219,3.8756,3.8748,3.1249,4.6360,0.0006
+trees_pavement,T123_drop_night_deficit_density,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.8273,4.7306,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,T123_drop_night_deficit_density,proposed,"share of municipal residents, top 20",0.2127,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T123_drop_night_deficit_density,proposed,"share of municipal residents 65+, top 20",0.2059,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T123_drop_night_deficit_density,proposed,"share of the municipality low-canopy schools, top 20",0.2851,,,0.1605,0.0964,0.2289,0.0023
+trees_pavement,T123_drop_night_deficit_density,proposed,"share of municipal residents, top 30",0.3058,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T123_drop_night_deficit_density,proposed,"share of municipal residents 65+, top 30",0.2968,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T123_drop_night_deficit_density,proposed,"share of the municipality low-canopy schools, top 30",0.3815,,,0.2402,0.1647,0.3173,0.0022
+trees_pavement,T123_drop_night_deficit_density,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.4258,26.9027,27.0959,27.0993,,,0.0104
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5778,39.5078,39.6866,39.6867,39.4289,39.9603,0.7482
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.5419,9.7103,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.6693,5.4609,3.8756,3.8748,3.1249,4.6360,0.0034
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.9611,5.0960,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"share of municipal residents, top 20",0.2062,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"share of municipal residents 65+, top 20",0.1997,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"share of the municipality low-canopy schools, top 20",0.2651,,,0.1605,0.0964,0.2289,0.0071
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"share of municipal residents, top 30",0.2979,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"share of municipal residents 65+, top 30",0.2881,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T7_balanced_cover_newtrees_km2_night,proposed,"share of the municipality low-canopy schools, top 30",0.3695,,,0.2402,0.1647,0.3173,0.0040
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5684,39.6228,39.6866,39.6867,39.4289,39.9603,0.7665
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.4833,10.1250,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.4717,5.6442,3.8756,3.8748,3.1249,4.6360,0.0006
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.7139,5.2812,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"share of municipal residents, top 20",0.2079,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"share of municipal residents 65+, top 20",0.2021,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"share of the municipality low-canopy schools, top 20",0.2610,,,0.1605,0.0964,0.2289,0.0098
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"share of municipal residents, top 30",0.3033,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"share of municipal residents 65+, top 30",0.2933,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"share of the municipality low-canopy schools, top 30",0.3655,,,0.2402,0.1647,0.3173,0.0052
+trees_pavement,T8_balanced_cover_newtrees_km2,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3629,26.9079,27.0959,27.0993,,,0.0310
+trees_pavement,T9_balanced_cover_only,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5033,39.7950,39.6866,39.6867,39.4289,39.9603,0.8714
+trees_pavement,T9_balanced_cover_only,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.1796,10.7101,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T9_balanced_cover_only,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.0789,5.8267,3.8756,3.8748,3.1249,4.6360,0.0001
+trees_pavement,T9_balanced_cover_only,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.4397,5.9689,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,T9_balanced_cover_only,proposed,"share of municipal residents, top 20",0.2040,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T9_balanced_cover_only,proposed,"share of municipal residents 65+, top 20",0.1978,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T9_balanced_cover_only,proposed,"share of the municipality low-canopy schools, top 20",0.2410,,,0.1605,0.0964,0.2289,0.0280
+trees_pavement,T9_balanced_cover_only,proposed,"share of municipal residents, top 30",0.2909,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T9_balanced_cover_only,proposed,"share of municipal residents 65+, top 30",0.2832,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T9_balanced_cover_only,proposed,"share of the municipality low-canopy schools, top 30",0.4056,,,0.2402,0.1647,0.3173,0.0003
+trees_pavement,T9_balanced_cover_only,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.5225,26.8967,27.0959,27.0993,,,0.0012
+trees_pavement,T10_balanced_cover_night,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5257,39.6985,39.6866,39.6867,39.4289,39.9603,0.8412
+trees_pavement,T10_balanced_cover_night,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.4139,10.4782,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,T10_balanced_cover_night,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.1881,5.6917,3.8756,3.8748,3.1249,4.6360,0.0001
+trees_pavement,T10_balanced_cover_night,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.6953,5.4897,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,T10_balanced_cover_night,proposed,"share of municipal residents, top 20",0.2069,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,T10_balanced_cover_night,proposed,"share of municipal residents 65+, top 20",0.2011,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,T10_balanced_cover_night,proposed,"share of the municipality low-canopy schools, top 20",0.2731,,,0.1605,0.0964,0.2289,0.0050
+trees_pavement,T10_balanced_cover_night,proposed,"share of municipal residents, top 30",0.3016,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,T10_balanced_cover_night,proposed,"share of municipal residents 65+, top 30",0.2925,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,T10_balanced_cover_night,proposed,"share of the municipality low-canopy schools, top 30",0.3976,,,0.2402,0.1647,0.3173,0.0006
+trees_pavement,TA_drop_density_and_deficit,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5314,39.8640,39.6866,39.6867,39.4289,39.9603,0.8323
+trees_pavement,TA_drop_density_and_deficit,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.5838,9.5113,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,TA_drop_density_and_deficit,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.4656,5.0761,3.8756,3.8748,3.1249,4.6360,0.0005
+trees_pavement,TA_drop_density_and_deficit,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.9282,4.5889,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,TA_drop_density_and_deficit,proposed,"share of municipal residents, top 20",0.2119,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,TA_drop_density_and_deficit,proposed,"share of municipal residents 65+, top 20",0.2057,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,TA_drop_density_and_deficit,proposed,"share of the municipality low-canopy schools, top 20",0.2490,,,0.1605,0.0964,0.2289,0.0187
+trees_pavement,TA_drop_density_and_deficit,proposed,"share of municipal residents, top 30",0.3114,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,TA_drop_density_and_deficit,proposed,"share of municipal residents 65+, top 30",0.3031,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,TA_drop_density_and_deficit,proposed,"share of the municipality low-canopy schools, top 30",0.3695,,,0.2402,0.1647,0.3173,0.0040
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5450,39.7058,39.6866,39.6867,39.4289,39.9603,0.8111
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.5442,9.3819,5.1377,5.1468,3.5006,7.1588,0.0001
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.5851,5.1896,3.8756,3.8748,3.1249,4.6360,0.0016
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.8281,4.7936,2.8977,2.9015,1.9635,3.9106,0.0001
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"share of municipal residents, top 20",0.2118,,,0.1448,0.1242,0.1659,0.0001
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"share of municipal residents 65+, top 20",0.2039,,,0.1435,0.1235,0.1641,0.0001
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"share of the municipality low-canopy schools, top 20",0.2811,,,0.1605,0.0964,0.2289,0.0028
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"share of municipal residents, top 30",0.3033,,,0.2173,0.1932,0.2417,0.0001
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"share of municipal residents 65+, top 30",0.2933,,,0.2153,0.1918,0.2392,0.0001
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"share of the municipality low-canopy schools, top 30",0.3655,,,0.2402,0.1647,0.3173,0.0052
+trees_pavement,TC_balanced_cover_newtrees_1000,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.4787,26.8784,27.0959,27.0993,,,0.0032
+roof_cool_or_green_municipal,current_composite,current,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5602,39.3626,39.6205,39.6218,39.3594,39.8955,0.6352
+roof_cool_or_green_municipal,current_composite,current,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.1872,18.0341,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,current_composite,current,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",1.6275,11.5742,4.9415,4.9381,3.4508,7.0157,0.0001
+roof_cool_or_green_municipal,current_composite,current,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.3272,12.7229,4.2327,4.2299,2.3825,6.6819,0.0001
+roof_cool_or_green_municipal,current_composite,current,"matched municipal buildings (mean, top 20)",2.4500,2.3500,3.2174,3.2235,2.5000,4.0000,0.9667
+roof_cool_or_green_municipal,current_composite,current,"matched municipal roof m2 (mean, top 20)",1055.6065,2676.9340,2155.5215,2162.0400,1408.0087,3131.4730,0.9977
+roof_cool_or_green_municipal,current_composite,current,"schools+nurseries+elderly clubs (mean, top 20)",2.9000,4.2000,4.2870,4.2981,3.3000,5.3500,0.9919
+roof_cool_or_green_municipal,current_composite,current,"schools with canopy<5% within 150 m (mean, top 20)",2.4500,0.3500,2.1652,2.1747,1.4000,3.0000,0.2961
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4561,39.4206,39.6205,39.6218,39.3594,39.8955,0.8467
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"wc2021_tree_pct (mean, top 20; independent canopy product)",0.8471,17.0816,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",1.7011,11.7360,4.9415,4.9381,3.4508,7.0157,0.0001
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.1857,12.4701,4.2327,4.2299,2.3825,6.6819,0.0001
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"matched municipal buildings (mean, top 20)",2.7000,2.5500,3.2174,3.2235,2.5000,4.0000,0.8896
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"matched municipal roof m2 (mean, top 20)",1188.4177,2200.6647,2155.5215,2162.0400,1408.0087,3131.4730,0.9896
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"schools+nurseries+elderly clubs (mean, top 20)",3.1000,3.6500,4.2870,4.2981,3.3000,5.3500,0.9791
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"schools with canopy<5% within 150 m (mean, top 20)",2.5500,0.1500,2.1652,2.1747,1.4000,3.0000,0.2323
+roof_cool_or_green_municipal,current_composite_without_night_temp,out_of_sample_variant,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.6218,26.5589,27.0763,27.0745,,,0.0001
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4802,39.4522,39.6205,39.6218,39.3594,39.8955,0.8054
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",0.8448,20.4476,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",1.6427,12.4205,4.9415,4.9381,3.4508,7.0157,0.0001
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.1732,14.1479,4.2327,4.2299,2.3825,6.6819,0.0001
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"matched municipal buildings (mean, top 20)",2.8000,2.4000,3.2174,3.2235,2.5000,4.0000,0.8335
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"matched municipal roof m2 (mean, top 20)",1130.7068,1844.1207,2155.5215,2162.0400,1408.0087,3131.4730,0.9942
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"schools+nurseries+elderly clubs (mean, top 20)",3.4000,3.8000,4.2870,4.2981,3.3000,5.3500,0.9341
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"schools with canopy<5% within 150 m (mean, top 20)",2.6000,1.1500,2.1652,2.1747,1.4000,3.0000,0.2050
+roof_cool_or_green_municipal,naive_tree_cover_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.5653,26.6069,27.0763,27.0745,,,0.0002
+roof_cool_or_green_municipal,naive_density_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.3671,40.2585,39.6205,39.6218,39.3594,39.8955,0.9460
+roof_cool_or_green_municipal,naive_density_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",2.2510,11.9425,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,naive_density_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.6902,7.8164,4.9415,4.9381,3.4508,7.0157,0.0005
+roof_cool_or_green_municipal,naive_density_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.5452,7.8517,4.2327,4.2299,2.3825,6.6819,0.0010
+roof_cool_or_green_municipal,naive_density_alone,naive,"matched municipal buildings (mean, top 20)",3.1500,2.8000,3.2174,3.2235,2.5000,4.0000,0.5770
+roof_cool_or_green_municipal,naive_density_alone,naive,"matched municipal roof m2 (mean, top 20)",1346.5690,1850.7386,2155.5215,2162.0400,1408.0087,3131.4730,0.9670
+roof_cool_or_green_municipal,naive_density_alone,naive,"schools+nurseries+elderly clubs (mean, top 20)",4.0500,3.1500,4.2870,4.2981,3.3000,5.3500,0.6593
+roof_cool_or_green_municipal,naive_density_alone,naive,"schools with canopy<5% within 150 m (mean, top 20)",2.8500,0.9500,2.1652,2.1747,1.4000,3.0000,0.0973
+roof_cool_or_green_municipal,naive_density_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.4015,26.8587,27.0763,27.0745,,,0.0116
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.7413,39.3967,39.6205,39.6218,39.3594,39.8955,0.2282
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",4.0525,9.5060,6.7554,6.7552,4.1491,9.9748,0.0407
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",3.2412,7.9329,4.9415,4.9381,3.4508,7.0157,0.0221
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",2.1539,6.8334,4.2327,4.2299,2.3825,6.6819,0.0228
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"matched municipal buildings (mean, top 20)",5.7500,2.6000,3.2174,3.2235,2.5000,4.0000,0.0001
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"matched municipal roof m2 (mean, top 20)",3897.5187,2388.7825,2155.5215,2162.0400,1408.0087,3131.4730,0.0021
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"schools+nurseries+elderly clubs (mean, top 20)",7.9000,3.2500,4.2870,4.2981,3.3000,5.3500,0.0001
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"schools with canopy<5% within 150 m (mean, top 20)",6.2000,0.0000,2.1652,2.1747,1.4000,3.0000,0.0001
+roof_cool_or_green_municipal,naive_low_canopy_sites_count_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3329,26.8783,27.0763,27.0745,,,0.0355
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"city_lst_summer_day_2016_2020_c (mean, top 20)",40.9172,38.6668,39.6205,39.6218,39.3594,39.8955,0.0001
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"wc2021_tree_pct (mean, top 20; independent canopy product)",6.5481,9.0347,6.7554,6.7552,4.1491,9.9748,0.4960
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",4.2616,7.5411,4.9415,4.9381,3.4508,7.0157,0.3230
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",3.5426,6.3924,4.2327,4.2299,2.3825,6.6819,0.3574
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"matched municipal buildings (mean, top 20)",3.6500,2.9000,3.2174,3.2235,2.5000,4.0000,0.1860
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"matched municipal roof m2 (mean, top 20)",2470.0095,1615.7771,2155.5215,2162.0400,1408.0087,3131.4730,0.2658
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"schools+nurseries+elderly clubs (mean, top 20)",4.1000,3.8000,4.2870,4.2981,3.3000,5.3500,0.6293
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"schools with canopy<5% within 150 m (mean, top 20)",2.3000,1.9500,2.1652,2.1747,1.4000,3.0000,0.3990
+roof_cool_or_green_municipal,naive_lst_alone,naive_heat,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.3453,27.0245,27.0763,27.0745,,,0.0295
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.8322,39.4765,39.6205,39.6218,39.3594,39.8955,0.1006
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"wc2021_tree_pct (mean, top 20; independent canopy product)",4.3263,7.8153,6.7554,6.7552,4.1491,9.9748,0.0672
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",3.9667,5.5498,4.9415,4.9381,3.4508,7.0157,0.2051
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",2.6407,4.6852,4.2327,4.2299,2.3825,6.6819,0.0965
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"matched municipal buildings (mean, top 20)",6.9500,1.0000,3.2174,3.2235,2.5000,4.0000,0.0001
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"matched municipal roof m2 (mean, top 20)",4680.8438,928.9304,2155.5215,2162.0400,1408.0087,3131.4730,0.0001
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"schools+nurseries+elderly clubs (mean, top 20)",8.6500,1.7000,4.2870,4.2981,3.3000,5.3500,0.0001
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"schools with canopy<5% within 150 m (mean, top 20)",4.6500,0.9500,2.1652,2.1747,1.4000,3.0000,0.0001
+roof_cool_or_green_municipal,naive_buildings_alone,naive,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.2859,26.8716,27.0763,27.0745,,,0.0723
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.5993,39.4618,39.6205,39.6218,39.3594,39.8955,0.5452
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.6779,19.0165,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.3018,11.6794,4.9415,4.9381,3.4508,7.0157,0.0002
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.7522,13.3229,4.2327,4.2299,2.3825,6.6819,0.0001
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"matched municipal buildings (mean, top 20)",5.4000,1.6500,3.2174,3.2235,2.5000,4.0000,0.0001
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"matched municipal roof m2 (mean, top 20)",2435.0849,1224.7323,2155.5215,2162.0400,1408.0087,3131.4730,0.2833
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"schools+nurseries+elderly clubs (mean, top 20)",6.6500,3.3500,4.2870,4.2981,3.3000,5.3500,0.0004
+roof_cool_or_green_municipal,R1_buildings_instead_of_low_canopy_share,proposed,"schools with canopy<5% within 150 m (mean, top 20)",4.8500,1.1000,2.1652,2.1747,1.4000,3.0000,0.0001
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",40.1536,39.0094,39.6205,39.6218,39.3594,39.8955,0.0008
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.7799,14.6916,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.4308,10.5265,4.9415,4.9381,3.4508,7.0157,0.0002
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.8176,10.7524,4.2327,4.2299,2.3825,6.6819,0.0001
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"matched municipal buildings (mean, top 20)",2.9000,2.5000,3.2174,3.2235,2.5000,4.0000,0.7720
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"matched municipal roof m2 (mean, top 20)",1450.1919,1755.4950,2155.5215,2162.0400,1408.0087,3131.4730,0.9361
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"schools+nurseries+elderly clubs (mean, top 20)",3.2000,3.9500,4.2870,4.2981,3.3000,5.3500,0.9689
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"schools with canopy<5% within 150 m (mean, top 20)",2.6000,0.3500,2.1652,2.1747,1.4000,3.0000,0.2050
+roof_cool_or_green_municipal,R2_lst_instead_of_night,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.4714,26.4980,27.0763,27.0745,,,0.0027
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.6728,39.3539,39.6205,39.6218,39.3594,39.8955,0.3685
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",1.9873,9.7276,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.3199,6.6571,4.9415,4.9381,3.4508,7.0157,0.0002
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.0920,6.2264,4.2327,4.2299,2.3825,6.6819,0.0002
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"matched municipal buildings (mean, top 20)",3.0500,2.0000,3.2174,3.2235,2.5000,4.0000,0.6575
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"matched municipal roof m2 (mean, top 20)",1534.2410,1777.5643,2155.5215,2162.0400,1408.0087,3131.4730,0.8974
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"schools+nurseries+elderly clubs (mean, top 20)",4.0000,2.4500,4.2870,4.2981,3.3000,5.3500,0.6878
+roof_cool_or_green_municipal,R3_drop_tree_cover,proposed,"schools with canopy<5% within 150 m (mean, top 20)",3.2000,0.0000,2.1652,2.1747,1.4000,3.0000,0.0258
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",39.4561,39.4206,39.6205,39.6218,39.3594,39.8955,0.8467
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",0.8471,17.0816,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",1.7011,11.7360,4.9415,4.9381,3.4508,7.0157,0.0001
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.1857,12.4701,4.2327,4.2299,2.3825,6.6819,0.0001
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"matched municipal buildings (mean, top 20)",2.7000,2.5500,3.2174,3.2235,2.5000,4.0000,0.8896
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"matched municipal roof m2 (mean, top 20)",1188.4177,2200.6647,2155.5215,2162.0400,1408.0087,3131.4730,0.9896
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"schools+nurseries+elderly clubs (mean, top 20)",3.1000,3.6500,4.2870,4.2981,3.3000,5.3500,0.9791
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"schools with canopy<5% within 150 m (mean, top 20)",2.5500,0.1500,2.1652,2.1747,1.4000,3.0000,0.2323
+roof_cool_or_green_municipal,R5_drop_night_temp,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.6218,26.5589,27.0763,27.0745,,,0.0001
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",40.1967,38.9528,39.6205,39.6218,39.3594,39.8955,0.0003
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",2.9970,17.3685,6.7554,6.7552,4.1491,9.9748,0.0021
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.7896,11.2711,4.9415,4.9381,3.4508,7.0157,0.0013
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",1.4190,12.2723,4.2327,4.2299,2.3825,6.6819,0.0004
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"matched municipal buildings (mean, top 20)",5.7500,1.6000,3.2174,3.2235,2.5000,4.0000,0.0001
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"matched municipal roof m2 (mean, top 20)",4082.6940,1306.1374,2155.5215,2162.0400,1408.0087,3131.4730,0.0010
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"schools+nurseries+elderly clubs (mean, top 20)",6.7000,2.5500,4.2870,4.2981,3.3000,5.3500,0.0002
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"schools with canopy<5% within 150 m (mean, top 20)",4.8500,0.6000,2.1652,2.1747,1.4000,3.0000,0.0001
+roof_cool_or_green_municipal,R12_buildings_tree_cover_lst,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.4142,26.6214,27.0763,27.0745,,,0.0093
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",40.5390,38.8609,39.6205,39.6218,39.3594,39.8955,0.0001
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",6.5716,10.9544,6.7554,6.7552,4.1491,9.9748,0.5015
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",4.3409,8.0087,4.9415,4.9381,3.4508,7.0157,0.3543
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",3.6060,7.8253,4.2327,4.2299,2.3825,6.6819,0.3774
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"matched municipal buildings (mean, top 20)",6.0500,1.2500,3.2174,3.2235,2.5000,4.0000,0.0001
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"matched municipal roof m2 (mean, top 20)",4227.5242,689.1830,2155.5215,2162.0400,1408.0087,3131.4730,0.0006
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"schools+nurseries+elderly clubs (mean, top 20)",7.0000,1.8000,4.2870,4.2981,3.3000,5.3500,0.0001
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"schools with canopy<5% within 150 m (mean, top 20)",3.8000,0.7000,2.1652,2.1747,1.4000,3.0000,0.0024
+roof_cool_or_green_municipal,R123_lst_plus_buildings,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.2698,26.6404,27.0763,27.0745,,,0.0909
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",40.3478,38.8111,39.6205,39.6218,39.3594,39.8955,0.0001
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",6.4640,10.1581,6.7554,6.7552,4.1491,9.9748,0.4773
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",4.7477,7.8632,4.9415,4.9381,3.4508,7.0157,0.5076
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",3.8683,6.8834,4.2327,4.2299,2.3825,6.6819,0.4507
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"matched municipal buildings (mean, top 20)",6.3000,1.4500,3.2174,3.2235,2.5000,4.0000,0.0001
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"matched municipal roof m2 (mean, top 20)",5208.1647,693.1046,2155.5215,2162.0400,1408.0087,3131.4730,0.0001
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"schools+nurseries+elderly clubs (mean, top 20)",8.3000,1.5500,4.2870,4.2981,3.3000,5.3500,0.0001
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"schools with canopy<5% within 150 m (mean, top 20)",3.7000,0.3500,2.1652,2.1747,1.4000,3.0000,0.0029
+roof_cool_or_green_municipal,R4_lst_plus_user_sites,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.2286,26.8008,27.0763,27.0745,,,0.1459
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"city_lst_summer_day_2016_2020_c (mean, top 20)",40.2677,38.8972,39.6205,39.6218,39.3594,39.8955,0.0001
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"wc2021_tree_pct (mean, top 20; independent canopy product)",2.1429,15.6994,6.7554,6.7552,4.1491,9.9748,0.0001
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"metachm_ge3m_pct (mean, top 20; NOT independent for trees: canopy deficit is built from it)",2.4203,10.2834,4.9415,4.9381,3.4508,7.0157,0.0002
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"ua_stl2018_pct (mean, top 20; IN the score where tree cover is used)",0.7695,11.1774,4.2327,4.2299,2.3825,6.6819,0.0001
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"matched municipal buildings (mean, top 20)",3.2000,2.3000,3.2174,3.2235,2.5000,4.0000,0.5336
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"matched municipal roof m2 (mean, top 20)",1894.7169,1738.1208,2155.5215,2162.0400,1408.0087,3131.4730,0.6535
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"schools+nurseries+elderly clubs (mean, top 20)",3.6000,4.0000,4.2870,4.2981,3.3000,5.3500,0.8805
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"schools with canopy<5% within 150 m (mean, top 20)",2.5500,1.1500,2.1652,2.1747,1.4000,3.0000,0.2323
+roof_cool_or_green_municipal,R6_tree_cover_plus_lst,proposed,"heat_night, top 20 sensor neighbourhoods (out of sample)",27.5272,26.5243,27.0763,27.0745,,,0.0008

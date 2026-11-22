@@ -1,0 +1,89 @@
+n joined 77
+MUNICIPAL (area weighted over 144 polys, total km2 37.986)
+  wc2020_tree_pct              13.20
+  wc2021_tree_pct              14.48
+  tcd2018_mean_pct             2.01
+  tcd2018_ge10_pct             4.48
+  tcd2018_gt0_pct              4.74
+  clcplus2021_tree_pct         9.66
+  hrl_forest2018_pct           0.77
+  hrl_wvl2021_woody_pct        10.99
+  hrl_swf2021_pct              5.88
+  metachm_ge3m_pct             9.58
+  metachm_ge5m_pct             6.72
+  metachm_mean_height_m        0.81
+  ua_stl2018_pct               9.55
+  ua2012_green_urban_pct       12.96
+  ua2012_sports_leisure_pct    1.18
+  city_zoned_green_pct         14.18
+SOURCE CORR (n=144) pearson / spearman vs wc2021
+  wc2020_tree_pct              0.98 0.96
+  wc2021_tree_pct              1.00 1.00
+  tcd2018_mean_pct             0.73 0.77
+  tcd2018_ge10_pct             0.79 0.76
+  tcd2018_gt0_pct              0.78 0.75
+  clcplus2021_tree_pct         0.96 0.95
+  hrl_forest2018_pct           0.30 0.26
+  hrl_wvl2021_woody_pct        0.89 0.80
+  hrl_swf2021_pct              0.36 0.67
+  metachm_ge3m_pct             0.93 0.85
+  metachm_ge5m_pct             0.90 0.86
+  metachm_mean_height_m        0.89 0.81
+  ua_stl2018_pct               0.95 0.93
+  ua2012_green_urban_pct       0.90 0.77
+  ua2012_sports_leisure_pct    0.39 0.28
+  city_zoned_green_pct         0.85 0.59
+area-weighted? tcd vs wc
+                       metric   temp   n  pearson      p  spearman    p_s
+0             wc2020_tree_pct   dmax  77   -0.114  0.323    -0.187  0.104
+1             wc2020_tree_pct  night  77   -0.338  0.003    -0.498  0.000
+2             wc2021_tree_pct   dmax  77   -0.133  0.249    -0.186  0.106
+3             wc2021_tree_pct  night  77   -0.311  0.006    -0.402  0.000
+4            tcd2018_mean_pct   dmax  77   -0.261  0.022    -0.138  0.230
+5            tcd2018_mean_pct  night  77   -0.314  0.005    -0.421  0.000
+6            tcd2018_ge10_pct   dmax  77   -0.228  0.046    -0.151  0.190
+7            tcd2018_ge10_pct  night  77   -0.343  0.002    -0.406  0.000
+8             tcd2018_gt0_pct   dmax  77   -0.233  0.042    -0.153  0.185
+9             tcd2018_gt0_pct  night  77   -0.346  0.002    -0.404  0.000
+10       clcplus2021_tree_pct   dmax  77   -0.099  0.390    -0.175  0.127
+11       clcplus2021_tree_pct  night  77   -0.259  0.023    -0.438  0.000
+12         hrl_forest2018_pct   dmax  77   -0.119  0.302    -0.057  0.623
+13         hrl_forest2018_pct  night  77   -0.184  0.110    -0.192  0.095
+14      hrl_wvl2021_woody_pct   dmax  77   -0.247  0.031    -0.241  0.035
+15      hrl_wvl2021_woody_pct  night  77   -0.278  0.015    -0.309  0.006
+16            hrl_swf2021_pct   dmax  77   -0.152  0.186    -0.136  0.238
+17            hrl_swf2021_pct  night  77   -0.158  0.169    -0.204  0.075
+18           metachm_ge3m_pct   dmax  77   -0.104  0.369    -0.130  0.260
+19           metachm_ge3m_pct  night  77   -0.234  0.040    -0.448  0.000
+20           metachm_ge5m_pct   dmax  77   -0.126  0.273    -0.136  0.239
+21           metachm_ge5m_pct  night  77   -0.234  0.041    -0.399  0.000
+22      metachm_mean_height_m   dmax  77   -0.131  0.255    -0.142  0.219
+23      metachm_mean_height_m  night  77   -0.234  0.040    -0.429  0.000
+24             ua_stl2018_pct   dmax  77   -0.179  0.120    -0.216  0.060
+25             ua_stl2018_pct  night  77   -0.352  0.002    -0.446  0.000
+26     ua2012_green_urban_pct   dmax  77   -0.125  0.278    -0.145  0.207
+27     ua2012_green_urban_pct  night  77   -0.146  0.204    -0.422  0.000
+28  ua2012_sports_leisure_pct   dmax  77    0.062  0.595     0.162  0.159
+29  ua2012_sports_leisure_pct  night  77   -0.351  0.002    -0.405  0.000
+30       city_zoned_green_pct   dmax  77   -0.051  0.657     0.043  0.710
+31       city_zoned_green_pct  night  77   -0.220  0.054    -0.390  0.000
+        neighbourhood  area_km2  wc2021_tree_pct  tcd2018_mean_pct  metachm_ge3m_pct  n_sensors   dmax  night
+67    ΚΑΤΩ ΠΑΤΗΣΙΑ II      0.48             0.50              0.14              2.95          1  39.15  27.36
+58             ΣΤΕΡΝΑ      0.16             0.52              0.00              0.29          1  37.17  27.31
+11          ΑΒΕΡΩΦ ΙΙ      0.18             0.74              0.00              2.33          1  38.65  26.96
+27           ΑΜΕΡΙΚΗΣ      0.25             0.83              0.11              5.22          1  34.29  27.46
+28            ΒΑΡΝΑΒΑ      0.21             1.01              0.01              1.44          1  35.27  27.87
+39      ΑΜΠΕΛΟΚΗΠΟΙ Ι      0.20             1.25              0.27              3.06          1  38.45  26.12
+36  ΠΛΑΤΕΙΑ ΒΙΚΤΩΡΙΑΣ      0.19             1.25              0.00              3.71          1  37.75  27.74
+65           ΜΠΑΚΝΑΝΑ      0.17             1.34              0.00              0.74          1  36.35  26.12
+21          ΘΥΜΑΡΑΚΙΑ      0.30             1.35              0.10              2.78          1  35.69  27.75
+35    ΠΛΑΤΕΙΑ ΑΤΤΙΚΗΣ      0.26             1.44              0.34              2.01          2  37.24  26.99
+49  ΑΓΙΟΣ ΠΑΝΤΕΛΕΗΜΩΝ      0.15             1.45              0.10              1.84          1  38.91  27.32
+68       ΑΓΙΟΣ ΠΑΥΛΟΣ      0.18             1.48              0.04              2.28          1  37.39  27.77
+38              ΓΚΥΖΗ      0.23             1.69              0.16              1.96          1  35.23  27.37
+22    ΑΓΙΟΣ ΑΘΑΝΑΣΙΟΣ      0.25             1.70              0.13              2.31          1  37.96  26.26
+14        ΚΟΛΙΑΤΣΟΥ I      0.17             1.82              0.16              2.40          3  35.74  28.11
+median dmax 36.7556 sd 1.8889567588821616
+{1: 64, 2: 10, 3: 3}
+multi-sensor nbs 13 PearsonRResult(statistic=np.float64(-0.19293375459402046), pvalue=np.float64(0.5277018107495373)) PearsonRResult(statistic=np.float64(-0.6755140118553427), pvalue=np.float64(0.011276847478811164))
+area>=0.15 71 SignificanceResult(statistic=np.float64(-0.18843058350100603), pvalue=np.float64(0.1155580000628935)) SignificanceResult(statistic=np.float64(-0.44704896042924214), pvalue=np.float64(9.292836710101845e-05))

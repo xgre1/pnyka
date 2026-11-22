@@ -1,0 +1,26 @@
+column,definition,source,reference_year,resolution,licence
+area_km2,Polygon area in EPSG:3035 (equal area),nb.csv polygon_geo,n/a,n/a,n/a
+wc2020_tree_pct,% of pixels (centre in polygon) with class 10 Tree cover,ESA WorldCover v100,2020,10 m,CC BY 4.0
+wc2021_tree_pct,% of pixels with class 10 Tree cover (PRIMARY metric),ESA WorldCover v200,2021,10 m,CC BY 4.0
+tcd2018_mean_pct,Mean Tree Cover Density 0-100 over all pixels (canopy share),Copernicus HRL Tree Cover Density (EEA ImageServer),2018,10 m,Copernicus open (free; attribution)
+tcd2018_ge10_pct,% of pixels with TCD >= 10,same,2018,10 m,same
+tcd2018_gt0_pct,% of pixels with TCD > 0,same,2018,10 m,same
+clcplus2021_tree_pct,% of pixels in CLC+ Backbone classes 2/3/4 (needle / broadleaved deciduous / broadleaved evergreen trees),Copernicus CLC+ Backbone raster,2021 (Oct 2020-Mar 2022),10 m,Copernicus open (free; attribution)
+hrl_forest2018_pct,% of pixels in HRL Forest Type (broadleaf/conifer) - forest only so near zero in a city,Copernicus HRL Forest Type,2018,10 m,Copernicus open
+hrl_wvl2021_woody_pct,% of pixels flagged woody vegetation (trees AND shrubs),Copernicus HRL Woody Vegetation Layer,2021,5 m,Copernicus open
+hrl_swf2021_pct,% of pixels flagged Small Woody Feature (hedges / tree rows / small groves; subset of woody),Copernicus HRL Small Woody Features,2021,5 m,Copernicus open
+metachm_ge3m_pct,% of pixels with canopy height >= 3 m,Meta/WRI High Resolution Canopy Height Maps v1 (AWS open data),~2018-2020 imagery per dataset docs (not verified here),~1.2 m (EPSG:3857),CC BY 4.0 (per dataset docs)
+metachm_ge5m_pct,% of pixels with canopy height >= 5 m,same,same,same,same
+metachm_mean_height_m,Mean canopy height over all pixels (non-canopy = 0),same,same,same,same
+ua_stl2018_pct,% of polygon area covered by Street Tree Layer polygons,Copernicus Urban Atlas Street Tree Layer vector,2018,vector (tree-cover polygons from 2 m imagery),Copernicus open
+ua2012_green_urban_pct,% of area in Urban Atlas class 14100 Green urban areas,Copernicus Urban Atlas land use,2012,vector,Copernicus open
+ua2012_sports_leisure_pct,% of area in class 14200 Sports and leisure,same,2012,vector,Copernicus open
+city_national_garden_trees_all,Count of surveyed trees (Existing+New+Cut) in the National Garden layer (single park; NOT a city-wide inventory),City of Athens GIS layer dendra,metadata 2026-05-28 (survey date not stated),points,licence not stated in CKAN metadata
+city_national_garden_trees_existing,Same but Condition=Existing,same,same,same,same
+city_pocket_parks_count,Pocket parks (points) inside polygon,City of Athens GIS layer PocketParks2 (10 pts),metadata 2026-05-28,points,licence not stated
+city_zoned_green_pct,% of area zoned as green/open in the land-use plan (ΑΣΤΙΚΟ ΠΡΑΣΙΝΟ-ΕΛΕΥΘΕΡΟΙ ΧΩΡΟΙ / ΚΟΙΝΟΧΡΗΣΤΟ ΠΡΑΣΙΝΟ / ΠΡΑΣΙΑ). ZONING not actual cover,City of Athens GIS layer xriseis (ΦΕΚ 80Δ/88 land uses),plan (1988+ amendments),polygons,licence not stated
+city_lst_summer_day_2016_2020_c,Area-weighted mean of polygon land surface temperature (Jun-Aug daytime) - satellite LST not air temperature; supplied for context,City of Athens GIS layer angLST_Athens_UrbanAtlas (EXTREMA / ARTi),2016-2020,6092 Urban Atlas polygons,licence not stated
+n_sensors,Number of sensors in heat_station.csv assigned to the neighbourhood (0 = no sensor),/tmp/athens_env/heat_station.csv,summer (upstream),stations,n/a
+summer_mean_daily_max_c,Mean over the neighbourhood's sensors of per-station dmax,heat_station.csv,upstream,stations,n/a
+night_temp_c,Mean over sensors of per-station night,heat_station.csv,upstream,stations,n/a
+summer_mean_temp_c,Mean over sensors of per-station mean,heat_station.csv,upstream,stations,n/a

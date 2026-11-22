@@ -1,0 +1,45 @@
+/* Design tokens. Every component uses ONLY these.  */
+:root {
+  /* One family. Apple system font first (Greek supported), Inter as the web fallback. */
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Inter, "Helvetica Neue", system-ui, sans-serif;
+
+  /* Four sizes, no more. */
+  --fs-meta: 13px;   /* secondary lines, axis labels, sources */
+  --fs-body: 15px;   /* all normal text, buttons, list rows */
+  --fs-title: 22px;  /* panel title, neighbourhood name */
+  --fs-hero: 44px;   /* one hero number per view */
+  --fw-regular: 400;
+  --fw-medium: 590;
+  --fw-bold: 700;
+  --lh: 1.4;
+
+  /* Colour: quiet surfaces, data is the only colour. */
+  --bg: #0a0d12;
+  --surface: #11161d;
+  --surface-2: #171d25;
+  --hairline: rgba(255, 255, 255, 0.08);
+  --text: #f2f5f7;
+  --text-2: #9aa5b1;
+  --text-3: #64707c;
+  --need: #ff6a3d;        /* heat / need (recorded or calculated today) */
+  --need-soft: rgba(255, 106, 61, 0.14);
+  --cool: #34e0a1;        /* intervention / projection */
+  --cool-soft: rgba(52, 224, 161, 0.12);
+
+  /* Shape and space (8-pt grid). */
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px;
+  --shadow: 0 1px 0 rgba(255,255,255,0.04) inset, 0 12px 32px rgba(0,0,0,0.35);
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+/* Flat, rounded, human (operator, 21/11 evening): bigger radii, tinted tiles, no hairlines between panels. */
+:root {
+  --r-xl: 28px;
+  --surface-3: #1e252f;
+  --good: #5a96dc;
+  --good-soft: rgba(90, 150, 220, 0.16);
+  --gap: 12px;
+}

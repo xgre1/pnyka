@@ -1,0 +1,19 @@
+:root {
+  --font: Inter, "Helvetica Neue", Arial, sans-serif;
+  --fw-thin: 300;   /* big numbers only */
+  --fw: 400;        /* everything else */
+  --tracking: -0.03em;
+  --tracking-display: -0.055em;
+
+  --ink: #0a0d12;      /* dark surfaces, map background, text on paper */
+  --paper: #f7f6f1;    /* light surfaces, text on ink */
+  --paper-2: #e6e3d8;
+  --paper-3: #cfccbe;
+  --green: #1f4d3a;    /* brand colour: panels, buttons, text on paper */
+  --leaf: #46b07c;     /* brand colour on ink: the decision, selected areas, bars */
+
+  --radius: 0;
+  --line-on-paper: rgba(10, 13, 18, 0.28);
+  --line-on-ink: rgba(247, 246, 241, 0.28);
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
